@@ -9,6 +9,12 @@
  */
 $max-width: 1200px; // Adjust this value as needed
 
+// Reduce left margin by modifying the container width or padding
+.page__inner-wrap {
+  margin-left: 0.5rem !important;  // default is often ~1.5rem
+  padding-left: 0.5rem !important;
+}
+
 @import
     "vendor/breakpoint/breakpoint",
 

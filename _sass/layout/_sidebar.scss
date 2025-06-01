@@ -36,10 +36,10 @@
   }
 
   @include breakpoint($x-large) {
-    // max-width: $sidebar-link-max-width;
+     max-width: $sidebar-link-max-width;
     //padding-right: 0;
-    max-width: 1996px;
-    padding-right: 66px;
+   // max-width: 1996px;
+    padding-right: 666px;
   }
 
   h2, h3, h4, h5, h6 {
@@ -69,7 +69,8 @@
   @include breakpoint($large) {
     position: relative;
     float: right;
-    width: $right-sidebar-width-narrow;
+   // width: $right-sidebar-width-narrow;
+     width: $right-sidebar-width;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }

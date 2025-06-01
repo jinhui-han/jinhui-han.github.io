@@ -62,7 +62,8 @@ $x-large                    : 1960px !default;
 
 $right-sidebar-width-narrow : auto;
 $right-sidebar-width        : auto;
-$right-sidebar-width-wide   : auto;
+//$right-sidebar-width-wide   : auto;
+$right-sidebar-width-wide   : 1960px;
 
 $susy: (
     columns: 12,

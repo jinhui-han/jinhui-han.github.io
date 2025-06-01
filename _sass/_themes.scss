@@ -65,7 +65,8 @@ $right-sidebar-width-wide   : auto;
 
 $susy: (
     columns: 12,
-    column-width: 120px,
+    //column-width: 120px,
+    column-width: 160px,
     gutters: 1/4,
     math: fluid,
     output: float,
